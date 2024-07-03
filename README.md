@@ -6,13 +6,8 @@
 
 El objetivo de este quiz es evaluar tus conocimientos previos sobre JavaScript antes de comenzar con el curso de TypeScript y Node. Responde las preguntas a continuación y envía tus respuestas siguiendo las instrucciones. Este quiz no afectará tu calificación en el curso, pero te ayudará a identificar áreas en las que puedas necesitar repasar antes de comenzar.
 
-## Instrucciones de envío
-
-1. Crea un nuevo repositorio en tu cuenta de GitHub llamado `quiz-prework-ts-node`.
-2. Copia las preguntas a continuación y péguelas en el archivo `README.md` de tu repositorio.
-3. Responde cada pregunta en su respectiva sección.
-4. Realiza un commit y un push de tus respuestas a GitHub.
-5. Subir a moodle en el espacio habilitado de semana 1 el link del repositorio en GitHub. En caso de no estar habilitado el envío en moodle, enviar el link del repo a nicolas.picon@riwi.io.
+## Instrucciones de revision
+1. Hola profesor, he dejado un archivo js aparte para explicar mejor las 10 primeras preguntas abiertas, el resto lo he respondido aqui mismo en el readme como inidico
 
 ## Preguntas Abiertas (10)
 
@@ -54,17 +49,23 @@ El objetivo de este quiz es evaluar tus conocimientos previos sobre JavaScript a
    - C) `let myVariable;`
    - D) `A y C son correctas.`
 
+R// D
+
 12. ¿Qué método se utiliza para agregar un elemento al final de un array en JavaScript?
    - A) `push()`
    - B) `pop()`
    - C) `shift()`
    - D) `unshift()`
 
+R// A
+
 13. ¿Cuál de los siguientes operadores se utiliza para comparar tanto el valor como el tipo de dos variables en JavaScript?
    - A) `==`
    - B) `===`
    - C) `!=`
    - D) `!==`
+
+R// B
 
 14. ¿Cuál es la salida del siguiente código?
    ```javascript
@@ -75,11 +76,15 @@ El objetivo de este quiz es evaluar tus conocimientos previos sobre JavaScript a
    - C) `object`
    - D) `number`
 
+R// C
+
 15. ¿Cuál de los siguientes métodos se usa para recorrer todos los elementos de un array?
    - A) `forEach()`
    - B) `map()`
    - C) `filter()`
    - D) `Todas las anteriores`
+
+R// D
 
 16. ¿Qué se entiende por “hoisting” en JavaScript?
    - A) Declaraciones de variables y funciones se mueven al principio de su ámbito.
@@ -87,11 +92,15 @@ El objetivo de este quiz es evaluar tus conocimientos previos sobre JavaScript a
    - C) Es un método para agrupar varias funciones.
    - D) Ninguna de las anteriores.
 
+R// D
+
 17. ¿Cuál es la diferencia entre `null` y `undefined` en JavaScript?
    - A) `null` significa que una variable ha sido declarada pero no definida, `undefined` significa que no se ha declarado.
    - B) `null` es un valor asignado intencionalmente, `undefined` significa que una variable no tiene valor.
    - C) `undefined` es un valor asignado intencionalmente, `null` significa que una variable no tiene valor.
    - D) No hay diferencia.
+
+R// A
 
 18. ¿Cuál es el propósito del método `Array.prototype.map()`?
    - A) Modificar el array original.
@@ -99,11 +108,15 @@ El objetivo de este quiz es evaluar tus conocimientos previos sobre JavaScript a
    - C) Filtrar los elementos de un array.
    - D) Encontrar un elemento en un array.
 
+R// B
+
 19. ¿Qué es el `Event Loop` en JavaScript?
    - A) Un ciclo que controla las llamadas recursivas.
    - B) Un proceso que permite a JavaScript realizar operaciones asincrónicas.
    - C) Un método para iterar sobre arrays.
    - D) Ninguna de las anteriores.
+
+R// B
 
 20. ¿Cuál es la salida del siguiente código?
     ```javascript
@@ -114,62 +127,87 @@ El objetivo de este quiz es evaluar tus conocimientos previos sobre JavaScript a
     - C) `undefined`
     - D) `NaN`
 
+R// B
+
 21. ¿Qué se entiende por `strict mode` en JavaScript?
     - A) Un modo que permite utilizar características experimentales.
     - B) Un modo que cambia la forma en que se ejecuta JavaScript, haciéndolo más seguro.
     - C) Un método para validar datos.
     - D) Ninguna de las anteriores.
+   
+R// B
 
 22. ¿Cuál de las siguientes es una forma correcta de crear un objeto en JavaScript?
     - A) `let obj = {};`
     - B) `let obj = Object.create();`
     - C) `let obj = new Object();`
     - D) A y C son correctas.
+   
+R// D
 
 23. ¿Qué es un `callback` en JavaScript?
     - A) Una función que se pasa como argumento a otra función.
     - B) Un tipo de variable especial.
     - C) Un método para declarar funciones.
     - D) Ninguna de las anteriores.
+   
+   R// A
 
 24. ¿Cuál es el propósito de `async` y `await` en JavaScript?
     - A) Ejecutar funciones síncronas.
     - B) Manejar operaciones asincrónicas de manera más simple y legible.
     - C) Declarar variables globales.
     - D) Ninguna de las anteriores.
+   
+   R// B
 
 25. ¿Cuál de las siguientes es una estructura de datos inmutable en JavaScript?
     - A) Arrays
     - B) Strings
     - C) Objetos
     - D) Ninguna de las anteriores.
+   
+   R// D
 
 26. ¿Cómo se puede convertir un objeto JSON en una cadena de texto en JavaScript?
     - A) `JSON.parse()`
     - B) `JSON.stringify()`
     - C) `toString()`
     - D) `parseInt()`
+   
+   
+   R// B
 
 27. ¿Qué es un `Promise` en JavaScript?
     - A) Una función que se ejecuta inmediatamente.
     - B) Un objeto que representa la eventual finalización (o falla) de una operación asincrónica.
     - C) Un método para declarar variables.
     - D) Ninguna de las anteriores.
+   
+   
+   R// B
 
 28. ¿Qué método se utiliza para agregar uno o más elementos al principio de un array y devolver la nueva longitud del array?
     - A) `push()`
     - B) `pop()`
     - C) `shift()`
     - D) `unshift()`
+   
+   
+   R// D
 
 29. ¿Cuál es la diferencia entre `localStorage` y `sessionStorage` en JavaScript?
     - A) `localStorage` almacena datos solo durante la sesión del navegador, `sessionStorage` almacena datos de manera persistente.
     - B) `sessionStorage` almacena datos solo durante la sesión del navegador, `localStorage` almacena datos de manera persistente.
     - C) No hay diferencia entre ellos.
     - D) Ambos almacenan datos solo durante la sesión del navegador.
+   
+   R// B 
 
 30. ¿Qué método se utiliza para detener la propagación de un evento en el DOM?
     - A) `event.stopPropagation()`
     - B) `event.preventDefault()`
     - C) `event.stop()`
     - D) `event.cancel()`
+   
+    R// B
